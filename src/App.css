@@ -1,0 +1,10 @@
+body {
+   
+    background-image: url('./assets/main_image.webp');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Example of setting font family */
+}
