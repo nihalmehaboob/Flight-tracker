@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #282c34;
+    color: white;
+    position: fixed; /* Keeps the header at the top of the page */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the header stays above other content */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 60px;
+  }
+  .title {
+    margin: 0;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  body {
+    margin-top: 60px; /* Adjust based on the height of the header */
+  }
+  
